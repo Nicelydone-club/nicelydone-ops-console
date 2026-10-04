@@ -16,6 +16,11 @@ const services = [
     description: 'Handles invoices, refunds, and subscription state.',
     status: 'Operational',
   },
+  {
+    name: 'Search Worker',
+    description: 'Indexes captures and assets for fast cross-project search.',
+    status: 'Operational',
+  },
 ]
 
 export default function Home() {
